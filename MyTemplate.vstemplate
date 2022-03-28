@@ -1,0 +1,34 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>GestionIntervention</Name>
+    <Description>&lt;Aucune description disponible&gt;</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>GestionIntervention</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="GestionIntervention.vcxproj" File="GestionIntervention.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">GestionIntervention.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Client.cpp">Client.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Gestion.cpp">Gestion.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Intervention.cpp">Intervention.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="main.cpp">main.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Techniciens.cpp">Techniciens.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Client.h">Client.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Gestion.h">Gestion.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Intervention.h">Intervention.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Techniciens.h">Techniciens.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Client.txt">Client.txt</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Distancier.txt">Distancier.txt</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Techniciens.txt">Techniciens.txt</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="CR.txt">CR.txt</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
